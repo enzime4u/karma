@@ -56,6 +56,12 @@ div {
 }
 
 /* Begin my own styling here */
+
+* {
+	box-sizing: border-box
+}
+
+
 .wrapper {
 	width: 100%;
 	margin: 0 auto;
@@ -69,27 +75,42 @@ div {
 	width: 970px;
 	height: 70px;
 	margin: 0 auto;
+	padding: 0 15px;
 }
-.links .active {
-	color: #999;
-	font-weight: bold;
-}
+
+
 .links {
 	float: right;
 	margin-top: 1.7rem;
+	font-family: "Roboto", sans-serif;
 	font-size: 1.04rem;
+	letter-spacing: 0.03em;
 	color: #838994;
+	font-weight: 300;
+	-webkit-font-smoothing: anitaliased;
 }
 
 .links li {
 	display: inline-block;
-	margin-right: 5px;
+	margin-left: 25px;
+	font-family: "Roboto", sans-serif;
+
+}
+
+.links .active {
+	color: #4c5058;
+	font-weight: 500;
+}
+
+.top-navigation .links li:hover{
+	cursor: pointer;
+	color: #333333;
+	font-weight: 350;
 }
 
 .logo {
-	margin-left: 14px;
-	height: 70px;
-}
+ 	height: 70px;
+ }
 
 
 
