@@ -79,10 +79,9 @@ div {
 
 .content {
 	width: 970px;
-	height: 70px;
+	/*height: 70px;*/ /*why I have to remove ?*/
 	margin: 0 auto;
 	padding: 0 15px;
-	font-family: "Roboto", sans-serif;
 }
 
 
@@ -195,7 +194,7 @@ div {
 
 .social {
 	overflow: auto; /*ask my mentor why*/
-	padding-bottom: 9.375rem;
+	/*padding-bottom: 9.375rem;*/
 }
 
 .icons {
@@ -212,7 +211,7 @@ div {
 }
 .social .icons i {
 	margin: 10px 10px; /*to center the favicons in the circled border*/
-
+	/*display: inline-block;*/
 }
 
 
