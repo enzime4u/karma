@@ -51,6 +51,8 @@ body {
 	background-color: LightGray;
 	font-size: 16px;
 	-webkit-font-smoothing: anitaliased;
+	font-family: 'Roboto',sans-serif;
+
 }
 div {
 	border: 1px solid Chocolate;
@@ -70,6 +72,9 @@ div {
 
 .top-navigation {
 	background-color: #fff;
+	position: fixed;
+	width: 100%;
+	z-index: 9999;
 }
 
 .content {
@@ -77,13 +82,14 @@ div {
 	height: 70px;
 	margin: 0 auto;
 	padding: 0 15px;
+	font-family: "Roboto", sans-serif;
 }
 
 
 .links {
 	float: right;
 	margin-top: 1.7rem;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 1.04rem;
 	letter-spacing: 0.03em;
 	color: #838994;
@@ -94,7 +100,7 @@ div {
 .links li {
 	display: inline-block;
 	margin-left: 25px;
-	font-family: "Roboto", sans-serif;
+	font-family: 'Roboto', sans-serif;
 
 }
 
@@ -124,7 +130,7 @@ div {
 
 .introduction .content h1,
 .introduction .content h3 {
-	font-family: "Roboto",sans-serif;
+	font-family: 'Roboto',sans-serif;
 	color: white;
 	text-align: center;
 	font-weight: 300;
@@ -155,12 +161,59 @@ div {
 	border-color: #f15a29;
 	color: #fff;
 	font-size: 1.125rem;
-	font-weight: lighter;
+	font-weight: 100;
 	cursor: pointer;
 }
+.cases .content h2 {
+	color: #000;
+	font-size: 2.75rem;
+	font-weight: 300;
+	text-align: center;
+	margin: 1.625rem 0 3.125rem;
+}
 
+.cases {
+	text-align: center;
+}
+.cases .devices {
+	width: 33.333333%;
+	display: inline-block;
+	box-sizing: border-box;
+	margin-left: -4px;
+	margin-top: 1rem;
+	/*border: 1px solid black;
+	box-sizing: border-box;
+	height: 4em;*/
+}
 
+.cases .devices h3 {
+	font-size: 1.563rem;
+	color: #000;
+	font-weight: 400;
+	margin: 2.5rem 0 1.875rem;
+}
 
+.social {
+	overflow: auto; /*ask my mentor why*/
+	padding-bottom: 9.375rem;
+}
+
+.icons {
+	
+}
+.social .icons > li {
+	width: 2.5rem;
+	height: 2.5rem;
+	border-radius: 1.25rem;
+	display: inline-block;
+	border: 1px solid #eaebec;
+	margin: 1.25rem 5px;
+	text-align: center;
+}
+.social .icons i {
+	margin: 10px 10px; /*to center the favicons in the circled border*/
+
+}
 
 
 
